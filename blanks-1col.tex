@@ -1,0 +1,228 @@
+\documentclass[12pt, oneside, a4paper, article]{article}
+\usepackage[a4paper, margin=1cm]{geometry}   % MARGENS
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Pacotes básicos 
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% languages
+\usepackage[english]{babel}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage[normalem]{ulem}
+\usepackage[all]{xy}
+\usepackage{xcolor}
+\usepackage{ragged2e}           % formatação texto
+\usepackage{subcaption}			% Faz subfiguras
+\usepackage{lipsum}           % dummy text
+\usepackage{tabularx} % 
+\usepackage{multirow} % permite fazer tabelas com multirows
+
+\usepackage{pdflscape} % páginas em formato paisagem
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+Gradus Secundus p.18
+
+\begin{table}[!hb]
+\centering
+\textbf{SUBSTANTIVOS} 
+\vspace{1 ex}
+
+\begin{tabular}{|l|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|} % 8 cols
+\hline \hline
+Caso & \multicolumn{1}{c|}{I.} & \multicolumn{3}{c|}{II.} & \multicolumn{3}{c|}{III. A} \\
+\hline
+Nom. &  &  &  &  &  &  &   \\ \hline
+Voc. &  &  &  &  &  &  &   \\ \hline
+Ac.  &  &  &  &  &  &  &   \\ \hline
+Gen. &  &  &  &  &  &  &   \\ \hline
+Dat. &  &  &  &  &  &  &   \\ \hline
+Abl. &  &  &  &  &  &  &   \\ 
+\hline \hline
+Nom. &  &  &  &  &  &  &   \\ \hline
+Voc. &  &  &  &  &  &  &   \\ \hline
+Ac.  &  &  &  &  &  &  &   \\ \hline
+Gen. &  &  &  &  &  &  &   \\ \hline
+Dat. &  &  &  &  &  &  &   \\ \hline
+Abl. &  &  &  &  &  &  &   \\ 
+\hline \hline
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[!h]
+\centering
+\textbf{SUBSTANTIVOS} 
+\vspace{1 ex}
+
+\begin{tabular}{|l|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|} % 8 cols
+\hline \hline
+Caso & \multicolumn{3}{c|}{III. B} & \multicolumn{2}{c|}{IV} & \multicolumn{1}{c|}{V} \\
+\hline
+Nom. &  &  &  &  &  &   \\ \hline
+Voc. &  &  &  &  &  &   \\ \hline
+Ac.  &  &  &  &  &  &   \\ \hline
+Gen. &  &  &  &  &  &   \\ \hline
+Dat. &  &  &  &  &  &   \\ \hline
+Abl. &  &  &  &  &  &   \\
+\hline \hline
+Nom. &  &  &  &  &  &   \\ \hline
+Voc. &  &  &  &  &  &   \\ \hline
+Ac.  &  &  &  &  &  &   \\ \hline
+Gen. &  &  &  &  &  &   \\ \hline
+Dat. &  &  &  &  &  &   \\ \hline
+Abl. &  &  &  &  &  &   \\ 
+\hline \hline
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+Gradus Secundus p.18
+
+\begin{table}[!ht]
+\centering
+\textbf{ADJETIVOS} 
+\vspace{1 ex}
+
+\begin{tabular}
+{|l||p{1.4cm}|p{1.4cm}|p{1.4cm}||p{1.4cm}|p{1.4cm}|p{1.4cm}|}
+\hline \hline
+\multicolumn{7}{|c|}{Primeira Classe} \\
+\hline
+Caso & Masc. & Fem. & Neutro & Masc. & Fem. & Neutro \\
+\hline
+Nom. & & & & & & \\ \hline
+Voc. & & & & & & \\ \hline
+Ac.  & & & & & & \\ \hline
+Gen. & & & & & & \\ \hline
+Dat. & & & & & & \\ \hline
+Abl. & & & & & & \\ 
+\hline \hline             
+Nom. & & & & & & \\ \hline
+Voc. & & & & & & \\ \hline
+Ac.  & & & & & & \\ \hline
+Gen. & & & & & & \\ \hline
+Dat. & & & & & & \\ \hline
+Abl. & & & & & & \\ 
+\hline \hline
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[!ht]
+\centering
+\textbf{ADJETIVOS}
+\vspace{1 ex}
+
+\begin{tabular}
+{|l||p{1.4cm}|p{1.4cm}|p{1.4cm}||p{1.4cm}|p{1.4cm}||p{1.1cm}|p{1.1cm}||p{1.1cm}|p{1.1cm}||} 
+\hline \hline
+\multicolumn{10}{|c|}{Segunda Classe} \\
+\hline
+Caso & Masc. & Fem. & Neutro & M.-F. & Neutro & M.-F. & Neutro & M.-F. & Neutro
+\\
+\hline
+Nom. & & & & & & \multicolumn{2}{p{2cm}||}{} & \multicolumn{2}{p{2cm}||}{} \\ \hline
+Voc. & & & & & & \multicolumn{2}{p{2cm}||}{} & \multicolumn{2}{p{2cm}||}{} \\ \hline
+Ac.  & & & & & & & & & \\ \hline
+Gen. & & & & & & \multicolumn{2}{p{2cm}||}{} & \multicolumn{2}{p{2cm}||}{} \\ \hline
+Dat. & & & & & & \multicolumn{2}{p{2cm}||}{} & \multicolumn{2}{p{2cm}||}{} \\ \hline
+Abl. & & & & & & \multicolumn{2}{p{2cm}||}{} & \multicolumn{2}{p{2cm}||}{} \\ 
+\hline \hline                             
+Nom. & & & & & & & & & \\ \hline
+Voc. & & & & & & & & & \\ \hline
+Ac.  & & & & & & & & & \\ \hline
+Gen. & & & & & & \multicolumn{2}{p{2cm}||}{} & \multicolumn{2}{p{2cm}||}{} \\ \hline
+Dat. & & & & & & \multicolumn{2}{p{2cm}||}{} & \multicolumn{2}{p{2cm}||}{} \\ \hline
+Abl. & & & & & & \multicolumn{2}{p{2cm}||}{} & \multicolumn{2}{p{2cm}||}{} \\ 
+\hline \hline
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+
+\begin{landscape}
+
+\begin{table}
+\centering
+\textbf{SUBSTANTIVOS}  \\ (Gradus Secundus p.18)
+\vspace{1 ex}
+
+\begin{tabular}[!ht]
+{|l|p{1.25cm}|p{1.75cm}|p{1.6cm}|p{1.6cm}|p{1.6cm}|p{1.6cm}|p{1.6cm}|p{1.6cm}|p{1.6cm}|p{1.6cm}|p{1.6cm}|p{1.6cm}|p{1.25cm}|} 
+\hline \hline
+Caso & \multicolumn{1}{c|}{I.} & \multicolumn{3}{c|}{II.} & \multicolumn{3}{c|}{III. A} & \multicolumn{3}{c|}{III. B}& \multicolumn{2}{c|}{IV.} & \multicolumn{1}{c|}{V.} 
+\\
+\hline
+Nom. & & & & & & & & & & & & & \\ \hline
+Voc. & & & & & & & & & & & & & \\ \hline
+Ac.  & & & & & & & & & & & & & \\ \hline
+Gen. & & & & & & & & & & & & & \\ \hline
+Dat. & & & & & & & & & & & & & \\ \hline
+Abl. & & & & & & & & & & & & & \\ 
+\hline \hline                        
+Nom. & & & & & & & & & & & & & \\ \hline
+Voc. & & & & & & & & & & & & & \\ \hline
+Ac.  & & & & & & & & & & & & & \\ \hline
+Gen. & & & & & & & & & & & & & \\ \hline
+Dat. & & & & & & & & & & & & & \\ \hline
+Abl. & & & & & & & & & & & & & \\ 
+\hline \hline
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}
+\centering
+\textbf{ADJETIVOS} \\ (Gradus Secundus p.18)
+\vspace{1 ex}
+
+\begin{tabular}[!ht]
+{|l||p{1.4cm}|p{1.4cm}|p{1.4cm}||p{1.4cm}|p{1.4cm}|p{1.4cm}||p{1.4cm}|p{1.4cm}|p{1.4cm}||p{1.4cm}|p{1.4cm}||p{1.1cm}|p{1.1cm}||p{1.1cm}|p{1.1cm}|} 
+\hline \hline
+& \multicolumn{6}{c||}{Primeira Classe} & \multicolumn{9}{c|}{Segunda Classe} \\
+\hline
+Caso & Masc. & Fem. & Neutro & Masc. & Fem. & Neutro & Masc. & Fem. & Neutro & M.-F. & Neutro & M.-F. & Neutro & M.-F. & Neutro
+\\
+\hline
+Nom. & & & & & & & & & & & & \multicolumn{2}{p{2cm}||}{} & \multicolumn{2}{p{2cm}|}{} \\ \hline
+Voc. & & & & & & & & & & & & \multicolumn{2}{p{2cm}||}{} & \multicolumn{2}{p{2cm}|}{} \\ \hline
+Ac.  & & & & & & & & & & & & & & & \\ \hline
+Gen. & & & & & & & & & & & & \multicolumn{2}{p{2cm}||}{} & \multicolumn{2}{p{2cm}|}{} \\ \hline
+Dat. & & & & & & & & & & & & \multicolumn{2}{p{2cm}||}{} & \multicolumn{2}{p{2cm}|}{} \\ \hline
+Abl. & & & & & & & & & & & & \multicolumn{2}{p{2cm}||}{} & \multicolumn{2}{p{2cm}|}{} \\ 
+\hline \hline                             
+Nom. & & & & & & & & & & & & & & & \\ \hline
+Voc. & & & & & & & & & & & & & & & \\ \hline
+Ac.  & & & & & & & & & & & & & & & \\ \hline
+Gen. & & & & & & & & & & & & \multicolumn{2}{p{2cm}||}{} & \multicolumn{2}{p{2cm}|}{} \\ \hline
+Dat. & & & & & & & & & & & & \multicolumn{2}{p{2cm}||}{} & \multicolumn{2}{p{2cm}|}{} \\ \hline
+Abl. & & & & & & & & & & & & \multicolumn{2}{p{2cm}||}{} & \multicolumn{2}{p{2cm}|}{} \\ 
+\hline \hline
+\end{tabular}
+\end{table}
+\end{landscape}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
